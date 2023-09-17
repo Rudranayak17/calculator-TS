@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+   
+}
+
+.container{
+    background-color: #EFB495;
+    margin: auto;
+    width: 45%;
+    min-height: 70vh;
+    padding: 12px;
+    >p{
+        margin-top: 12px;
+        font-size: 1.5rem;
+        border: 2px solid black;
+        text-align: end;
+        padding: 12px;
+
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        > button{
+            font-size: 2rem;
+            margin: 12px;
+        }
+
+    }
+}
